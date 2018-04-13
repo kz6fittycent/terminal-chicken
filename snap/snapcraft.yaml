@@ -11,7 +11,7 @@ apps:
     command: terminal-chicken
     plugs:
       - home
-     
+
 parts: 
   my-part:
     source: .
