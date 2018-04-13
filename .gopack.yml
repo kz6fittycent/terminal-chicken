@@ -1,0 +1,12 @@
+author: kz6fittycent
+description: ':chicken: for your terminal'
+os: darwin linux windows
+includes:
+  - README.md
+  - LICENSE
+excludes:
+  - frames
+  - \.git
+script:
+  - go get -v
+  - go build
